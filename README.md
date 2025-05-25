@@ -4,20 +4,13 @@ Welcome to my portfolio designs showcase! This repository contains a collection 
 
 ## Portfolio Collection
 
-| # | Name | Preview | Live Link | My Comments | My Rating | User Rating |
-|---|------|---------|-----------|-------------|-----------|-------------|
-| 1 | Modern Minimalist Portfolio | <img src="https://via.placeholder.com/150x100" alt="Modern Minimalist Portfolio"> | [View Live](https://example.com/portfolio1) | Clean and minimalist design with focus on content and typography. Uses a monochromatic color scheme with accent colors. | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ (12) |
-| 2 | Creative Designer Portfolio | <img src="https://via.placeholder.com/150x100" alt="Creative Designer Portfolio"> | [View Live](https://example.com/portfolio2) | Vibrant and interactive design with animations and creative elements. Perfect for showcasing visual work. | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ (8) |
-| 3 | Developer Portfolio | <img src="https://via.placeholder.com/150x100" alt="Developer Portfolio"> | [View Live](https://example.com/portfolio3) | Code-focused portfolio with syntax highlighting and terminal-like interface. Great for showcasing technical skills. | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ (15) |
-| 4 | Photography Portfolio | <img src="https://via.placeholder.com/150x100" alt="Photography Portfolio"> | [View Live](https://example.com/portfolio4) | Full-screen image gallery with minimal UI. Designed to highlight visual content with elegant transitions. | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ (7) |
-| 5 | Resume Portfolio | <img src="https://via.placeholder.com/150x100" alt="Resume Portfolio"> | [View Live](https://example.com/portfolio5) | Professional and clean design focused on work experience and skills. Includes downloadable resume option. | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ (10) |
-
-## How to Use This Showcase
-
-1. Browse through the portfolio designs in the table above
-2. Click on the "View Live" links to see the live demos
-3. Check out my ratings and comments for each design
-4. If you visit a design and want to rate it, please submit your feedback through the contact form on the live site
+| # | Name | Preview | Live Link | My Comments | My Rating | 
+|---|------|---------|-----------|-------------|-----------|
+| 1 | Modern Minimalist Portfolio | <img src="https://via.placeholder.com/150x100" alt="Modern Minimalist Portfolio"> | [View Live](https://example.com/portfolio1) | Clean and minimalist design with focus on content and typography. Uses a monochromatic color scheme with accent colors. | ⭐⭐⭐⭐⭐ |
+| 2 | Creative Designer Portfolio | <img src="https://via.placeholder.com/150x100" alt="Creative Designer Portfolio"> | [View Live](https://example.com/portfolio2) | Vibrant and interactive design with animations and creative elements. Perfect for showcasing visual work. | ⭐⭐⭐⭐ |
+| 3 | Developer Portfolio | <img src="https://via.placeholder.com/150x100" alt="Developer Portfolio"> | [View Live](https://example.com/portfolio3) | Code-focused portfolio with syntax highlighting and terminal-like interface. Great for showcasing technical skills. | ⭐⭐⭐⭐⭐ | 
+| 4 | Photography Portfolio | <img src="https://via.placeholder.com/150x100" alt="Photography Portfolio"> | [View Live](https://example.com/portfolio4) | Full-screen image gallery with minimal UI. Designed to highlight visual content with elegant transitions. | ⭐⭐⭐⭐ |
+| 5 | Resume Portfolio | <img src="https://via.placeholder.com/150x100" alt="Resume Portfolio"> | [View Live](https://example.com/portfolio5) | Professional and clean design focused on work experience and skills. Includes downloadable resume option. | ⭐⭐⭐⭐ | 
 
 ## About the Ratings
 
