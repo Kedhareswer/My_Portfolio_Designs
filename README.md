@@ -140,7 +140,7 @@
 ## ⚖️ License
 
 > These portfolio designs are showcased for demonstration purposes only.<br>
-> **Interested in using one?** Please check out the respective GitHub repositories for licensing info.
+> **Interested in using one?** Please contact me for Further details.
 
 ---
 
