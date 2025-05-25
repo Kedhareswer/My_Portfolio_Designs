@@ -130,10 +130,16 @@
 ## 📬 Connect With Me
 
 <p align="center">
-  <a href="https://github.com/Kedhareswer"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"/></a>
+  <a href="https://github.com/Kedhareswer">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/kedhareswernaidu">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
 </p>
 
-> _Interested in using these designs, collaborating, or just want to say hi? Feel free to check out my GitHub profile!_
+> _Interested in using these designs, collaborating, or just want to say hi? Feel free to check out my GitHub or connect with me on LinkedIn!_
 
 ---
 
