@@ -109,7 +109,15 @@
     <td align="center"><a href="https://github.com/Kedhareswer/Notebook_Portfolio">📂 GitHub</a></td>
     <td align="center">⭐⭐</td>
   </tr>
-</table>
+<tr>
+    <td align="center">12</td>
+    <td><b>Data Sketch Portfolio</b><br><sub>Innovative, Data-Driven</sub></td>
+    <td><img src="Images/data_sketch.png" alt="Data Sketch Portfolio" width="150"></td>
+    <td align="center"><a href="https://monosketchportfolio.netlify.app/">🌐 Live</a></td>
+    <td align="center"><a href="https://github.com/Kedhareswer/Monochrome_Sketch_Portfolio">📂 GitHub</a></td>
+    <td align="center">⭐⭐⭐</td>
+  </tr>
+  </table>
 
 ---
 
