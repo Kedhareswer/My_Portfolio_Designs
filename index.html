@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Showcase | Kedhareswer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1 class="main-title">✨ My Portfolio Designs Showcase ✨</h1>
+                <p class="subtitle">A curated gallery of my creative portfolio websites with live previews, insights, and personal ratings.</p>
+                <div class="header-stats">
+                    <span class="stat">
+                        <i class="fas fa-palette"></i>
+                        <span id="total-portfolios">12</span> Portfolios
+                    </span>
+                    <span class="stat">
+                        <i class="fas fa-star"></i>
+                        <span id="avg-rating">4.2</span> Avg Rating
+                    </span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Filter Section -->
+        <div class="filter-section">
+            <div class="filter-container">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="5">5 Stars</button>
+                <button class="filter-btn" data-filter="4">4 Stars</button>
+                <button class="filter-btn" data-filter="3">3 Stars</button>
+                <button class="filter-btn" data-filter="2">2 Stars</button>
+            </div>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search portfolios...">
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+
+        <!-- Portfolio Grid -->
+        <div class="portfolio-grid" id="portfolio-grid">
+            <!-- Portfolio cards will be dynamically generated -->
+        </div>
+
+        <!-- Loading Indicator -->
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Loading portfolios...</p>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="https://github.com/Kedhareswer" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/kedhareswernaidu" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+                <p>&copy; 2024 Kedhareswer. All rights reserved.</p>
+                <p class="last-updated">Last updated: <span id="last-updated-time">Never</span></p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
