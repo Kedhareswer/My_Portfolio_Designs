@@ -3,73 +3,196 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Showcase | Kedhareswer</title>
+    <title>Portfolio Nexus | Kedhareswer</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <!-- Header -->
-        <header class="header">
-            <div class="header-content">
-                <h1 class="main-title">✨ My Portfolio Designs Showcase ✨</h1>
-                <p class="subtitle">A curated gallery of my creative portfolio websites with live previews, insights, and personal ratings.</p>
-                <div class="header-stats">
-                    <span class="stat">
-                        <i class="fas fa-palette"></i>
-                        <span id="total-portfolios">12</span> Portfolios
-                    </span>
-                    <span class="stat">
-                        <i class="fas fa-star"></i>
-                        <span id="avg-rating">4.2</span> Avg Rating
-                    </span>
-                </div>
-            </div>
-        </header>
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+            <div class="shape shape-5"></div>
+        </div>
+    </div>
 
-        <!-- Filter Section -->
-        <div class="filter-section">
-            <div class="filter-container">
-                <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="5">5 Stars</button>
-                <button class="filter-btn" data-filter="4">4 Stars</button>
-                <button class="filter-btn" data-filter="3">3 Stars</button>
-                <button class="filter-btn" data-filter="2">2 Stars</button>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-content">
+            <div class="nav-brand">
+                <div class="brand-icon">
+                    <i class="fas fa-cube"></i>
+                </div>
+                <span class="brand-text">Portfolio Nexus</span>
             </div>
-            <div class="search-container">
-                <input type="text" id="search-input" placeholder="Search portfolios...">
-                <i class="fas fa-search"></i>
+            <div class="nav-controls">
+                <button class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="layout-toggle" id="layout-toggle">
+                    <i class="fas fa-th-large"></i>
+                    <i class="fas fa-list"></i>
+                </button>
             </div>
         </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-text">Creative Portfolio Collection</span>
+                    <div class="badge-glow"></div>
+                </div>
+                <h1 class="hero-title">
+                    <span class="title-gradient">Design</span>
+                    <span class="title-main">Showcase</span>
+                    <span class="title-accent">Nexus</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Discover a curated collection of innovative portfolio designs, 
+                    each crafted with passion and precision to showcase the art of digital creativity.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" id="total-portfolios">12</div>
+                        <div class="stat-label">Projects</div>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <div class="stat-number" id="avg-rating">4.2</div>
+                        <div class="stat-label">Avg Rating</div>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <div class="stat-number" id="live-updates">0</div>
+                        <div class="stat-label">Live Updates</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="visual-grid">
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Controls -->
+        <section class="controls">
+            <div class="controls-container">
+                <div class="search-section">
+                    <div class="search-wrapper">
+                        <i class="fas fa-search search-icon"></i>
+                        <input type="text" id="search-input" placeholder="Search portfolios..." autocomplete="off">
+                        <div class="search-suggestions" id="search-suggestions"></div>
+                    </div>
+                </div>
+                <div class="filter-section">
+                    <div class="filter-label">Filter by Quality</div>
+                    <div class="filter-tabs">
+                        <button class="filter-tab active" data-filter="all">
+                            <span class="tab-text">All</span>
+                            <span class="tab-count" id="count-all">12</span>
+                        </button>
+                        <button class="filter-tab" data-filter="5">
+                            <span class="tab-text">Excellent</span>
+                            <span class="tab-count" id="count-5">4</span>
+                        </button>
+                        <button class="filter-tab" data-filter="4">
+                            <span class="tab-text">Great</span>
+                            <span class="tab-count" id="count-4">5</span>
+                        </button>
+                        <button class="filter-tab" data-filter="3">
+                            <span class="tab-text">Good</span>
+                            <span class="tab-count" id="count-3">2</span>
+                        </button>
+                        <button class="filter-tab" data-filter="2">
+                            <span class="tab-text">Fair</span>
+                            <span class="tab-count" id="count-2">1</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="sort-section">
+                    <select id="sort-select" class="sort-select">
+                        <option value="rating-desc">Highest Rated</option>
+                        <option value="rating-asc">Lowest Rated</option>
+                        <option value="name-asc">Name A-Z</option>
+                        <option value="name-desc">Name Z-A</option>
+                    </select>
+                </div>
+            </div>
+        </section>
 
         <!-- Portfolio Grid -->
-        <div class="portfolio-grid" id="portfolio-grid">
-            <!-- Portfolio cards will be dynamically generated -->
+        <section class="portfolio-section">
+            <div class="portfolio-grid" id="portfolio-grid">
+                <!-- Portfolio cards will be dynamically generated -->
+            </div>
+        </section>
+
+        <!-- Loading States -->
+        <div class="loading-container" id="loading">
+            <div class="loading-spinner">
+                <div class="spinner-ring"></div>
+                <div class="spinner-ring"></div>
+                <div class="spinner-ring"></div>
+            </div>
+            <p class="loading-text">Loading amazing portfolios...</p>
         </div>
 
-        <!-- Loading Indicator -->
-        <div class="loading" id="loading">
-            <div class="spinner"></div>
-            <p>Loading portfolios...</p>
+        <!-- Empty State -->
+        <div class="empty-state" id="empty-state">
+            <div class="empty-icon">
+                <i class="fas fa-search"></i>
+            </div>
+            <h3 class="empty-title">No portfolios found</h3>
+            <p class="empty-text">Try adjusting your search or filter criteria</p>
         </div>
+    </main>
 
-        <!-- Footer -->
-        <footer class="footer">
-            <div class="footer-content">
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4 class="footer-title">Portfolio Nexus</h4>
+                <p class="footer-text">Showcasing creative excellence through thoughtful design and innovative solutions.</p>
+            </div>
+            <div class="footer-section">
+                <h4 class="footer-title">Connect</h4>
                 <div class="social-links">
-                    <a href="https://github.com/Kedhareswer" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/Kedhareswer" class="social-link" target="_blank" rel="noopener noreferrer">
                         <i class="fab fa-github"></i>
+                        <span>GitHub</span>
                     </a>
-                    <a href="https://www.linkedin.com/in/kedhareswernaidu" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/kedhareswernaidu" class="social-link" target="_blank" rel="noopener noreferrer">
                         <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
                     </a>
                 </div>
-                <p>&copy; 2024 Kedhareswer. All rights reserved.</p>
+            </div>
+            <div class="footer-section">
+                <h4 class="footer-title">Status</h4>
+                <div class="status-indicator">
+                    <div class="status-dot"></div>
+                    <span class="status-text">Auto-sync active</span>
+                </div>
                 <p class="last-updated">Last updated: <span id="last-updated-time">Never</span></p>
             </div>
-        </footer>
-    </div>
+        </div>
+    </footer>
+
+    <!-- Notification System -->
+    <div class="notification-container" id="notification-container"></div>
 
     <script src="script.js"></script>
 </body>
