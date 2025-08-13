@@ -57,5 +57,10 @@
     "github_link": "https://github.com/Kedhareswer/Notebook_Portfolio",
     "live_link": "https://kedhareswer.github.io/Notebook_Portfolio/",
     "my_stars": "2"
+  },
+  "Blueprint_portfolio": {
+    "github_link": "https://github.com/Kedhareswer/blueprint_portfolio",
+    "live_link": "https://blueprint-portfolio.netlify.app/",
+    "my_stars": "5"
   }
 }
