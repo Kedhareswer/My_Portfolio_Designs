@@ -7,7 +7,7 @@
 </p>
 
 <h1 align="center">✨ Portfolio Nexus ✨</h1>
-<p align="center">A cutting-edge interactive showcase of portfolio designs with real-time updates, advanced filtering, and immersive user experience.<br><br>
+<p align="center">An interactive showcase of portfolio designs with real-time updates, advanced filtering, and immersive user experience.<br><br>
 <sup>🚀 Crafted with passion for innovation & exceptional design</sup>
 </p>
 
@@ -15,7 +15,7 @@
 
 ## 🎯 **What Makes This Special**
 
-### 🔥 **Revolutionary Features**
+### 🔥 **Features**
 - **🌙 Dark Theme Excellence**: Sophisticated dark-first design with glassmorphism effects
 - **🔄 Auto-Sync Technology**: Real-time updates when portfolio data changes
 - **🎨 Advanced Microinteractions**: Smooth animations and delightful user feedback
@@ -185,14 +185,6 @@ npm start
 </p>
 
 > 💬 **Let's connect!** Whether you want to collaborate, hire me, or just chat about design and development, I'd love to hear from you.
-
----
-
-## 📜 **License**
-
-This project is open source and available under the [MIT License](LICENSE).
-
-**Want to use these designs?** Feel free to fork, modify, and use them in your projects. Attribution is appreciated but not required.
 
 ---
 
