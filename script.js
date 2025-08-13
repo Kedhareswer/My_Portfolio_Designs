@@ -378,7 +378,8 @@ class PortfolioNexus {
             'Old_Diary_Portfolio': 'old_diary.png',
             'Japan_Portfolio': 'Japan.png',
             'DataScientist_portfolio': 'Datascientist.png',
-            'Notebook_Portfolio': 'Notebook.png'
+            'Notebook_Portfolio': 'Notebook.png',
+            'Blueprint_portfolio': 'blueprint.png'
         };
         return imageMap[key] || 'placeholder.png';
     }
@@ -396,7 +397,8 @@ class PortfolioNexus {
             'Old_Diary_Portfolio': 'Vintage personal touch with nostalgic feel and authentic storytelling elements.',
             'Japan_Portfolio': 'Cultural themed design inspired by Japanese aesthetics and traditional elements.',
             'DataScientist_portfolio': 'Professional technical showcase designed specifically for data science professionals.',
-            'Notebook_Portfolio': 'Simple clean interface with functional design and excellent user experience.'
+            'Notebook_Portfolio': 'Simple clean interface with functional design and excellent user experience.',
+            'Blueprint_portfolio': 'Technical blueprint-inspired design with architectural precision and engineering aesthetics.'
         };
         return descriptions[key] || 'A beautifully crafted portfolio design showcasing creativity, technical skills, and attention to detail.';
     }
